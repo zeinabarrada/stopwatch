@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(238, 215, 185);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatch-container{
+    text-align: center;
+}
+#stopwatch{
+    font-size: 400%;
+    margin-bottom: auto;
+    color: rgb(5, 101, 104);
+    border: 6ch;
+    border-radius: 10ch;
+}
+.button{
+    cursor: pointer;
+    padding: 10px ;
+    color: rgb(235, 229, 229);
+     background-color:rgb(24, 149, 154);
+      border: none;             
+    border-radius: 7px;          
+    font-size: 20px;  
+}
+.button:hover{
+    background-color: rgb(233, 145, 145);
+}
